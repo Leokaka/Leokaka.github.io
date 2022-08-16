@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Tiro+Gurmukhi&display=swap');
+
+/*Reset --> para crossbrowser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #eceae6;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(78, 78, 225);
+
+}
+
+.logo-cabecalho {
+    height: 82px;
+    padding-left: 60px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 62px;
+    padding-right: 60px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffbb34;
+}
+
+.importante {
+    margin-bottom: 48px;
+    border-top: 3px solid #ffbb34;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-escrito-titulo {
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffbb34;
+    text-align: center;
+}
+
+.principal-escrito-texto {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+}
+
+.dog-feliz {
+    margin-top: 60px;
+    border-radius: 50px;
+    width: 650px;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.equipe-titulo {
+    border-top: 3px solid #ffbb34;
+    padding-top: 48px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffbb34;
+    margin-bottom: 16px;
+}
+
+.equipe-imagem {
+    border-radius: 50px;
+    width: 800px;
+    align-items: center;
+}
+
+.equipe-texto {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+}
+
+.rodape {
+    border-top: 3px solid #ffbb34;
+    background: rgb(78, 78, 225);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.rodape-logo {
+    display: flex;
+    height: 92px;
+}
+
+.rodape-select {
+    display: flex; 
+    
+
+}
+
+.rodape-link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 10px;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.rodape-link-item {
+    color: #ffbb34;
+    font-size: 20px;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.rodape-direitos {
+    display: flex;
+
+}
+
+.rodape-credito {
+    display: flex;
+    flex-direction: column;
+    color: #ffbb34;
+    font-size: 20px;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: right;
+    padding-top: 15px;    
+}
